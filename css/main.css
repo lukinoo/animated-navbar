@@ -79,3 +79,13 @@ nav {
         pointer-events: all;
     }
 }
+
+@media screen and (max-width:1024px) {
+    .nav-links {
+        clip-path: circle(50px at 90% -10%);
+        -webkit-clip-path: circle(50px at 90% -10%);
+    }
+    nav {
+        height: 12vh;
+    }
+}
